@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="StageView">
+            <rect key="frame" x="0.0" y="0.0" width="130" height="110"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="select_image01.png" id="ddn-Jh-PGj">
+                    <rect key="frame" x="10" y="8" width="110" height="90"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <view alpha="0.5" contentMode="scaleToFill" id="e4P-oE-3Qt">
+                    <rect key="frame" x="10" y="8" width="110" height="90"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="select_stage_normal.png" id="DJU-D6-WOv">
+                    <rect key="frame" x="0.0" y="0.0" width="130" height="110"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="LC2-gm-QtK">
+                    <rect key="frame" x="-2" y="-2" width="30" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <accessibility key="accessibilityConfiguration">
+                        <accessibilityTraits key="traits" none="YES" button="YES" notEnabled="YES"/>
+                    </accessibility>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                    <state key="normal" title="10" backgroundImage="select_digital.png">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="select_new.png" id="h7f-XM-aHJ">
+                    <rect key="frame" x="30" y="-6" width="70" height="38"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="select_shadow.png" id="i0D-YQ-hKJ">
+                    <rect key="frame" x="66" y="100" width="60" height="11"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="select_stage_s.png" id="2Uw-c3-FVf">
+                    <rect key="frame" x="76" y="53" width="40" height="54"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <view contentMode="scaleToFill" id="8EX-vo-Qp4">
+                    <rect key="frame" x="0.0" y="24" width="130" height="90"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="select_lock_left.png" id="mUW-KJ-Jfb">
+                            <rect key="frame" x="0.0" y="6" width="60" height="45"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="select_lock_right.png" id="OHM-LD-Qv0">
+                            <rect key="frame" x="67" y="6" width="60" height="45"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="select_lock_center.png" id="sK9-Ah-fox">
+                            <rect key="frame" x="32" y="-1" width="65" height="73"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="stageBorder" destination="DJU-D6-WOv" id="zQ7-rd-zUL"/>
+                <outlet property="stageCover" destination="e4P-oE-3Qt" id="lrp-DE-j1r"/>
+                <outlet property="stageIcon" destination="ddn-Jh-PGj" id="tB1-sZ-INj"/>
+                <outlet property="stageLock" destination="8EX-vo-Qp4" id="kWO-E8-nRB"/>
+                <outlet property="stageNew" destination="h7f-XM-aHJ" id="BgZ-VD-zSm"/>
+                <outlet property="stageNo" destination="LC2-gm-QtK" id="g33-Iv-H3n"/>
+                <outlet property="stageRank" destination="2Uw-c3-FVf" id="Tbg-Tu-HTy"/>
+                <outlet property="stageShadow" destination="i0D-YQ-hKJ" id="pun-3k-xfV"/>
+            </connections>
+            <point key="canvasLocation" x="305" y="403"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="select_digital.png" width="61" height="60"/>
+        <image name="select_image01.png" width="253" height="206"/>
+        <image name="select_lock_center.png" width="157" height="176"/>
+        <image name="select_lock_left.png" width="97" height="73"/>
+        <image name="select_lock_right.png" width="94" height="68"/>
+        <image name="select_new.png" width="184" height="100"/>
+        <image name="select_shadow.png" width="132" height="25"/>
+        <image name="select_stage_normal.png" width="299" height="254"/>
+        <image name="select_stage_s.png" width="101" height="137"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
